@@ -387,6 +387,11 @@ p.misproyectos{
     flex-direction: column;
 }
 
+#Inicio div.titulo{
+    border-bottom: #fff 2px;
+    border-style: solid;
+}
+
 #Inicio div.subtitulo{
     display: flex;
     flex-direction: row;
