@@ -311,6 +311,13 @@ p.misproyectos{
         width: 150px;
     }
 
+    #minimenu ul li svg  {
+        transition: transform 0.3s;
+    }
+    #minimenu ul li :focus-within svg  {
+        transform: rotate(90deg);
+    }
+
     #minimenu ul li :hover {
         background-color: #5b78a7;
     }
@@ -378,6 +385,22 @@ p.misproyectos{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#Inicio div.subtitulo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 20px;
+    animation: animaciotitulo 1s ease-out forwards;
+}
+#Inicio div.subtitulo h2{
+    font-size: 1.2rem;
+    margin-top: 1px;
+}
+#Inicio div.subtitulo img{
+    width: 20px;
+    margin-left: 20px;
 }
 
 #sobremi{
